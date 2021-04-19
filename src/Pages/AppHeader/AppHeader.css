@@ -1,0 +1,31 @@
+.ant-layout-header{
+    background-color: white!important;
+}
+.ant-layout-header h3{
+    color: #2c82eb;
+    text-align: right;
+}
+.ant-layout-header span{
+    margin: 5px;
+}
+.ant-dropdown-placement-bottomLeft{
+top: 53px!important;
+}
+.profile{
+    text-align: right;
+}
+.anticon-global{
+    color: #0055B7!important;
+}
+.anticon-bell{
+    color: #0055B7!important;
+}
+.circle{
+    width: 4px;
+    height: 4px;
+    /* background:#EC6393; */
+    position: absolute;
+    border-radius: 50%;
+    left: 70%;
+    top: 41.3%;
+}

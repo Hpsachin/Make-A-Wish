@@ -1,0 +1,44 @@
+/* .text-align-right input {
+    width: 33%;
+    border-radius: 5px;
+  }
+  .text-align-right {
+    text-align: right;
+    position: relative !important;
+  }
+  .text-align-right .text-danger {
+    left: 67%;
+    top: 100%;
+    transform: translateY(-68%);
+    position: absolute;
+  }
+  .text-align-left input {
+    width: 33%;
+    border-radius: 5px;
+  }
+  .text-align-left {
+    text-align: left;
+    position: relative !important;
+  }
+  .text-align-left .text-danger {
+    right: 69%;
+    top: 100%;
+    transform: translateY(-68%);
+    position: absolute;
+  }
+  .text-align-left .ant-select {
+    width: 33%;
+  }
+  .text-align-right .ant-select {
+    width: 33%;
+  }
+  .text-align-center {
+    text-align: center;
+    position: relative !important;
+  }
+  .text-align-center .text-danger {
+    left: 30%!important;
+    top: 100%;
+    transform: translatey(-68%)!important;
+    position: absolute;
+  } */

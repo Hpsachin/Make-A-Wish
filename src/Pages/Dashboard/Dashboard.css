@@ -1,0 +1,43 @@
+.ant-card-head{
+    border-bottom: none;
+}
+
+.ant-card{
+    margin: 0px 5px;
+    box-shadow: 0px 0px 34px 2px #ECEFF4;
+    border-radius: 8px;
+}
+.right{
+    text-align: right;
+}
+.anticon-exclamation-circle{
+    font-size: 46px;
+    color: #CFBB04;
+}
+.anticon-check-circle{
+    font-size: 46px;
+    color: #009405;
+}
+
+.ant-layout{
+    background-color: white;
+}
+.left h2{
+    color: #4A4A4A;
+}
+.left h4{
+    color: #4A4A4A;
+}
+.chart{
+    margin-top: 50px!important;
+}
+.ant-calendar-range-right .ant-calendar-date-input-wrap{
+    /* margin-left: 20px; */
+}
+.ant-calendar-range-middle{
+    left: 67%;
+}
+.ant-calendar-input-wrap{
+display: flex;
+justify-content: flex-end;
+}

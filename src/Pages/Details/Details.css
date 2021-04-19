@@ -1,0 +1,113 @@
+.ant-card-head{
+    border-bottom: none;
+}
+.details-heading{
+    color:#F299B8;
+    margin-bottom: 24px;
+}
+.details .ant-form-item-control-wrapper{
+    width: 100%;
+}
+.details .ant-collapse {
+    position: relative;
+}
+.details .ant-collapse > .ant-collapse-item{
+    border-bottom: 1px solid #eeee;
+}
+.details .inputfield{
+    padding: 0px 10px;
+}
+.details .ant-collapse-icon-position-left{
+    background-color: white;
+}
+.details .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+    /* left: 99%;
+    background: #0055B7;
+
+    padding: 3px;
+    color: white;
+    transform: translateX(10px);
+    display: inline-block;
+    font-size: 15px;
+    transform: translate(-100%,-50%); */
+}
+.details .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+    display: none;
+}
+.details .ant-collapse .ant-collapse-item .ant-collapse-header::after {
+    content: "+";
+    left: 98%;
+    position: absolute;
+    background: #777;
+    padding: 2px 2px;
+    color: white;
+    height: 17px;
+    width: 17px;
+    line-height: 10px;
+    font-size: 19px;
+    border-radius: 2px;
+}
+.details .ant-collapse .ant-collapse-item-active .ant-collapse-header::after {
+    content: "-";
+    left: 98%;
+    position: absolute;
+    background: #0055B7;
+    padding: 2px 4px;
+    color: white;
+    height: 17px;
+    width: 17px;
+    line-height: 9px;
+    font-size: 24px;
+    border-radius: 2px;
+
+}
+.details .ant-collapse > .ant-collapse-item > .ant-collapse-header{
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px 26px;
+    padding-left: 40px!important;
+    ;
+}
+.details .headingbullets:first-child::before {
+    content: " ";
+    margin-right: 10px;
+    color: #eee;
+    background: #eee;
+    border-radius: 50%;
+    width: 14px !important;
+    height: 14px !important;
+    position: absolute;
+    top: 17px;
+    line-height: 20px;
+    left: 0;
+    transition: .3s ease-in;
+}
+/* .details .ant-input-affix-wrapper{
+    border: none;
+} */
+.ant-collapse-item.ant-collapse-item-active.headingbullets:first-child::before {
+    background-color: #ec6393;
+    transition: .3s ease-out;
+}
+.details .ant-form-item-label{
+    /* position: absolute;
+    top: 1%;
+    left: 8%; */
+}
+
+.details .ant-collapse{
+margin-bottom: 20px;
+}
+.details .ant-btn-block {
+    color: white;
+    min-height: 41px;
+    background: #EC6393;
+    outline: none;
+    border: none;
+    border-radius: 26px;
+    width: 100%;
+    margin: auto;
+}
+.details .complete-btn{
+    margin: auto;
+}
