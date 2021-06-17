@@ -1,0 +1,171 @@
+.ant-card-head{
+    border-bottom: none;
+}
+.details-heading{
+    color:#F299B8;
+    margin-bottom: 24px;
+}
+.details .ant-form-item-control-wrapper{
+    width: 100%;
+}
+.details .ant-collapse {
+    position: relative;
+}
+.details .ant-collapse > .ant-collapse-item{
+    border-bottom: 1px solid #eeee;
+}
+.details .inputfield{
+    padding: 0px 10px;
+}
+.details .ant-collapse-icon-position-left{
+    background-color: white;
+}
+.details .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+    display: none;
+}
+.details .ant-collapse .ant-collapse-item .ant-collapse-header::after {
+    content: "+";
+    left: 98%;
+    position: absolute;
+    background: #777;
+    padding: 2px 2px;
+    color: white;
+    height: 18px;
+    width: 17px;
+    line-height: 10px;
+    font-size: 19px;
+    border-radius: 2px;
+}
+.details .ant-collapse .ant-collapse-item-active .ant-collapse-header::after {
+    content: "-";
+    left: 98%;
+    position: absolute;
+    background: #0055B7;
+    padding: 2px 4px;
+    color: white;
+    height: 17px;
+    width: 17px;
+    line-height: 9px;
+    font-size: 24px;
+    border-radius: 2px;
+
+}
+.details .ant-collapse > .ant-collapse-item > .ant-collapse-header{
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px 26px;
+    padding-left: 40px!important;
+    ;
+}
+.details .headingbullets:first-child::before {
+    content: " ";
+    margin-right: 10px;
+    color: #eee;
+    background: #eee;
+    border-radius: 50%;
+    width: 14px !important;
+    height: 14px !important;
+    position: absolute;
+    top: 17px;
+    line-height: 20px;
+    left: 0;
+    transition: .3s ease-in;
+}
+.ant-collapse-item.ant-collapse-item-active.headingbullets:first-child::before {
+    background-color: #ec6393;
+    transition: .3s ease-out;
+}
+.details .ant-collapse{
+margin-bottom: 20px;
+}
+.details .ant-btn-block {
+    color: white;
+    min-height: 41px;
+    background: #EC6393;
+    outline: none;
+    border: none;
+    border-radius: 26px;
+    width: 100%;
+    margin: auto;
+}
+.details .complete-btn{
+    margin: auto;
+}
+.ant-calendar-input-wrap,.ant-calendar-header {
+    border-bottom: 1px solid #ddd;
+  }
+  .ant-calendar-input-wrap{
+    height: 43px!important;
+  }
+  .ant-calendar-date-panel{
+    margin-top: 4px!important;
+  }
+  .ant-calendar-prev-year-btn::after{
+    border-width: 2.5px 0 0 2.5px!important;
+    border: 0 solid #222;
+  }
+  .ant-calendar-prev-year-btn::before{
+    border-width: 2.5px 0 0 2.5px!important;
+    border: 0 solid #333;
+  }
+  .ant-calendar-next-year-btn::after{
+    border-width: 2.5px 0 0 2.5px!important;
+    border: 0 solid #333;
+  }
+  .ant-calendar-next-year-btn::before{
+    border-width: 2.5px 0 0 2.5px!important;
+    border: 0 solid #333;
+  }
+  .ant-calendar-header .ant-calendar-prev-month-btn::before, .ant-calendar-header .ant-calendar-prev-month-btn::after{
+    border-width: 2.5px 0 0 2.5px!important;
+    /* border: 0 solid #333!important; */
+  }
+  .ant-calendar-header .ant-calendar-next-month-btn::before, .ant-calendar-header .ant-calendar-next-month-btn::after{
+    border-width: 2.5px 0 0 2.5px!important;
+    /* border: 0 solid #333!important; */
+  }
+  .ant-calendar-today-btn-disabled,.ant-calendar-footer{
+  display: none!important;
+  }
+  .hideondesktop{
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    #sig-clearBtn {
+      position: absolute;
+      right: 2%;
+      top: 7%;
+      padding: 0px;
+      border: none;
+      margin-bottom: 10px;
+      left: unset!important;
+  }
+    .hideondesktop{
+      display: block;
+    }
+    #openbutton{
+      margin-bottom: 10px;
+    }
+    #signaturepad {
+      display: none;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      top:0px;
+      left: 0px;
+      background-color: #222222b8;
+    }
+    .signaturewrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 100%;
+      background-color: white;
+      width: 100%;
+      padding: 29px 15px;
+
+    }
+  }

@@ -1,0 +1,128 @@
+/* .text-align-right input {
+    width: 33%;
+    border-radius: 5px;
+  }
+  .text-align-right {
+    text-align: right;
+    position: relative !important;
+  }
+  .text-align-right .text-danger {
+    left: 67%;
+    top: 100%;
+    transform: translateY(-68%);
+    position: absolute;
+  }
+  .text-align-left input {
+    width: 33%;
+    border-radius: 5px;
+  }
+  .text-align-left {
+    text-align: left;
+    position: relative !important;
+  }
+  .text-align-left .text-danger {
+    right: 69%;
+    top: 100%;
+    transform: translateY(-68%);
+    position: absolute;
+  }
+  .text-align-left .ant-select {
+    width: 33%;
+  }
+  .text-align-right .ant-select {
+    width: 33%;
+  }
+  .text-align-center {
+    text-align: center;
+    position: relative !important;
+  }
+  .text-align-center .text-danger {
+    left: 30%!important;
+    top: 100%;
+    transform: translatey(-68%)!important;
+    position: absolute;
+  } */
+
+.hello{
+  overflow: hidden;
+}
+  .ant-calendar-input-wrap,.ant-calendar-header {
+    border-bottom: 1px solid #ddd;
+  }
+  .ant-calendar-input-wrap{
+    height: 43px!important;
+  }
+  .ant-calendar-date-panel{
+    margin-top: 4px!important;
+  }
+  .ant-calendar-prev-year-btn::after{
+    border-width: 2.5px 0 0 2.5px!important;
+    border: 0 solid #222;
+  }
+  .ant-calendar-prev-year-btn::before{
+    border-width: 2.5px 0 0 2.5px!important;
+    border: 0 solid #333;
+  }
+  .ant-calendar-next-year-btn::after{
+    border-width: 2.5px 0 0 2.5px!important;
+    border: 0 solid #333;
+  }
+  .ant-calendar-next-year-btn::before{
+    border-width: 2.5px 0 0 2.5px!important;
+    border: 0 solid #333;
+  }
+  .ant-calendar-header .ant-calendar-prev-month-btn::before, .ant-calendar-header .ant-calendar-prev-month-btn::after{
+    border-width: 2.5px 0 0 2.5px!important;
+    /* border: 0 solid #333!important; */
+  }
+  .ant-calendar-header .ant-calendar-next-month-btn::before, .ant-calendar-header .ant-calendar-next-month-btn::after{
+    border-width: 2.5px 0 0 2.5px!important;
+    /* border: 0 solid #333!important; */
+  }
+  .ant-calendar-today-btn-disabled,.ant-calendar-footer{
+  display: none!important;
+  }
+  .hideondesktop{
+    display: none;
+  }
+  
+
+  @media (max-width: 768px) {
+    .hideonmobile{
+      display: none;
+    }
+    #sig-clearBtn {
+      position: absolute;
+      right: 2%;
+      top: 7%;
+      padding: 0px;
+      border: none;
+      margin-bottom: 10px;
+      left: unset!important;
+  }
+
+    #openbutton{
+      margin-bottom: 10px;
+    }
+    #signaturepad {
+      display: none;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      top:0px;
+      left: 0px;
+      background-color: #222222b8;
+    }
+    .signaturewrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 100%;
+      background-color: white;
+      width: 100%;
+      padding: 29px 0px;
+
+    }
+  }

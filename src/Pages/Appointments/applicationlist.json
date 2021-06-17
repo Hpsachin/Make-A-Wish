@@ -1,0 +1,76 @@
+{
+    "Status": "Success",
+    "StatusCode": "200",
+    "Record": [
+        {
+            "Status": "Rejected",
+            "Relationship": "Mother",
+            "Name": "Shanu Singh",
+            "Email": "saba@gmail.com",
+            "Application_Number": "MAW-00000055"
+        },
+        {
+            "Status": "Pending",
+            "Relationship": "Mother",
+            "Name": "ajay kumar",
+            "Email": "kunwar.singh@abc.com",
+            "Application_Number": "MAW-00000059"
+        },
+        {
+            "Status": "Pending",
+            "Relationship": "Legal Guardian",
+            "Name": "ajay kumar",
+            "Email": "kunwar.singh@abc.com",
+            "Application_Number": "MAW-00000063"
+        },
+        {
+            "Status": "Pending",
+            "Relationship": "Child",
+            "Name": "ajay kumar",
+            "Email": "kunwar.singh@abc.com",
+            "Application_Number": "MAW-00000066"
+        },
+        {
+            "Status": "Approved",
+            "Relationship": "Family Members",
+            "Name": "ajay kumar",
+            "Email": "kunwar.singh@abc.com",
+            "Application_Number": "MAW-00000067"
+        },
+        {
+            "Status": "Approved",
+            "Relationship": "Mother",
+            "Name": "Harsh Rai",
+            "Email": "raiharsh@gmail.com",
+            "Application_Number": "MAW-00000071"
+        },
+        {
+            "Status": "Pending",
+            "Relationship": "Mother",
+            "Name": "ajay kumar",
+            "Email": "aniket@team.humanpixel.com.au",
+            "Application_Number": "MAW-00000073"
+        },
+        {
+            "Status": "Approved",
+            "Relationship": "Mother",
+            "Name": "Russell Valardo",
+            "Email": "saba@gmail.com",
+            "Application_Number": "MAW-00000105"
+        },
+        {
+            "Status": "Approved",
+            "Relationship": "Mother",
+            "Name": "Russell Valardo",
+            "Email": "saba@gmail.com",
+            "Application_Number": "MAW-00000106"
+        },
+        {
+            "Status": "Approved",
+            "Relationship": "Mother",
+            "Name": "Russell Valardo",
+            "Email": "saba@gmail.com",
+            "Application_Number": "MAW-00000107"
+        }
+    ]
+}
